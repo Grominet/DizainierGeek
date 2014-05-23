@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		193A2C81192EA09C00F2B127 /* pirate-ship-white.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 193A2C80192EA09C00F2B127 /* pirate-ship-white.jpg */; };
 		19C87CAF1924028600D96BF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19C87CAE1924028600D96BF5 /* Foundation.framework */; };
 		19C87CB11924028600D96BF5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19C87CB01924028600D96BF5 /* CoreGraphics.framework */; };
 		19C87CB31924028600D96BF5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19C87CB21924028600D96BF5 /* UIKit.framework */; };
@@ -22,6 +23,9 @@
 		19C87CD31924028600D96BF5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19C87CB21924028600D96BF5 /* UIKit.framework */; };
 		19C87CDB1924028600D96BF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 19C87CD91924028600D96BF5 /* InfoPlist.strings */; };
 		19C87CDD1924028600D96BF5 /* _3_DizainierGeekTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C87CDC1924028600D96BF5 /* _3_DizainierGeekTests.m */; };
+		19C87CEB1924061C00D96BF5 /* maView.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C87CEA1924061C00D96BF5 /* maView.m */; };
+		19C87CEE1924066500D96BF5 /* maDizaine.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C87CED1924066500D96BF5 /* maDizaine.m */; };
+		19C87CF21924125200D96BF5 /* pirate-ship.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 19C87CF11924125200D96BF5 /* pirate-ship.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		193A2C80192EA09C00F2B127 /* pirate-ship-white.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pirate-ship-white.jpg"; sourceTree = "<group>"; };
 		19C87CAB1924028600D96BF5 /* 03-DizainierGeek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "03-DizainierGeek.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		19C87CAE1924028600D96BF5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		19C87CB01924028600D96BF5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,6 +60,11 @@
 		19C87CD81924028600D96BF5 /* 03-DizainierGeekTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "03-DizainierGeekTests-Info.plist"; sourceTree = "<group>"; };
 		19C87CDA1924028600D96BF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		19C87CDC1924028600D96BF5 /* _3_DizainierGeekTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _3_DizainierGeekTests.m; sourceTree = "<group>"; };
+		19C87CE91924061C00D96BF5 /* maView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = maView.h; sourceTree = "<group>"; };
+		19C87CEA1924061C00D96BF5 /* maView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = maView.m; sourceTree = "<group>"; };
+		19C87CEC1924066500D96BF5 /* maDizaine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = maDizaine.h; sourceTree = "<group>"; };
+		19C87CED1924066500D96BF5 /* maDizaine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = maDizaine.m; sourceTree = "<group>"; };
+		19C87CF11924125200D96BF5 /* pirate-ship.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pirate-ship.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +130,12 @@
 				19C87CC31924028600D96BF5 /* Main_iPad.storyboard */,
 				19C87CC61924028600D96BF5 /* ViewController.h */,
 				19C87CC71924028600D96BF5 /* ViewController.m */,
+				19C87CE91924061C00D96BF5 /* maView.h */,
+				19C87CEA1924061C00D96BF5 /* maView.m */,
+				19C87CEC1924066500D96BF5 /* maDizaine.h */,
+				19C87CED1924066500D96BF5 /* maDizaine.m */,
+				19C87CF11924125200D96BF5 /* pirate-ship.jpg */,
+				193A2C80192EA09C00F2B127 /* pirate-ship-white.jpg */,
 				19C87CC91924028600D96BF5 /* Images.xcassets */,
 				19C87CB51924028600D96BF5 /* Supporting Files */,
 			);
@@ -233,6 +249,8 @@
 			files = (
 				19C87CC51924028600D96BF5 /* Main_iPad.storyboard in Resources */,
 				19C87CCA1924028600D96BF5 /* Images.xcassets in Resources */,
+				193A2C81192EA09C00F2B127 /* pirate-ship-white.jpg in Resources */,
+				19C87CF21924125200D96BF5 /* pirate-ship.jpg in Resources */,
 				19C87CC21924028600D96BF5 /* Main_iPhone.storyboard in Resources */,
 				19C87CB91924028600D96BF5 /* InfoPlist.strings in Resources */,
 			);
@@ -253,6 +271,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19C87CEE1924066500D96BF5 /* maDizaine.m in Sources */,
+				19C87CEB1924061C00D96BF5 /* maView.m in Sources */,
 				19C87CC81924028600D96BF5 /* ViewController.m in Sources */,
 				19C87CBF1924028600D96BF5 /* AppDelegate.m in Sources */,
 				19C87CBB1924028600D96BF5 /* main.m in Sources */,
@@ -470,6 +490,7 @@
 				19C87CE21924028600D96BF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		19C87CE31924028600D96BF5 /* Build configuration list for PBXNativeTarget "03-DizainierGeekTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +499,7 @@
 				19C87CE51924028600D96BF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

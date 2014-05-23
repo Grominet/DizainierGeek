@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "maView.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController {
+    maView *vue;
+}
 
 @end
